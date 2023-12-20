@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 tryLoadImage();
             };
             img.onerror = function() {
-                console.log(` ${className} `);
             };
             img.alt = ` ${i}`;
         }
