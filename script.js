@@ -30,5 +30,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 
-    loadImages('level1');
+    loadImages('level5');
 });
