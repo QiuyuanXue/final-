@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 tryLoadImage();
             };
             img.onerror = function() {
-                console.log(`类别 ${className} 的图片加载完毕`);
+                console.log(` ${className} `);
             };
-            img.alt = `图片 ${i}`;
+            img.alt = ` ${i}`;
         }
 
         tryLoadImage(); 
