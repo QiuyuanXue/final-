@@ -28,6 +28,5 @@ document.addEventListener('DOMContentLoaded', function() {
         tryLoadImage(); 
     }
 
-
     loadImages('level5');
 });
